@@ -18,7 +18,7 @@
     <div class="overlay h-[100%] w-[100%] bg-opacity-60 bg-black flex flex-grow items-center">
         <div class="container lg:max-w-screen-xl mx-auto p-4 md:grid md:grid-cols-2">
             <div>
-                <h1 class="text-3xl lg:text-5xl tracking-tight font-extrabold my-4 text-primary font-denver">Purus</h1>
+                <h1 class="text-3xl lg:text-7xl tracking-tight font-extrabold my-4 text-primary font-denver">Purus</h1>
                 <p class="max-w-screen-lg text-white font-serif text-3xl mb-10">Drink better <span class="text-primary">&#9679;</span> Feel better</p>
                 <a href="#" class="w-full sm:w-auto flex-none bg-transparent text-primary leading-6 py-3 px-6 border border-primary rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200">CTA Here &rarr;</a>
         
@@ -35,7 +35,7 @@
 <section class="lg:min-h-[40rem] bg-black text-white flex items-center" style="background: #040707 url(<?php echo get_the_post_thumbnail_url($section_2_ID,'banner-1440x800');?>) no-repeat;background-position:left bottom; background-size: contain;">
     <div class="container lg:max-w-screen-xl mx-auto p-4 flex flex-row-reverse">
         <div class="lg:basis-1/2">
-            <h2 class="text-3xl lg:text-7xl tracking-tight my-4 text-primary font-serif">About <span class="font-denver text-white">Purus</span></h2>
+            <h2 class="text-3xl lg:text-5xl tracking-tight my-4 text-primary font-serif">About <span class="font-denver text-white">Purus</span></h2>
             <p class="text-white mb-10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel perferendis officia in voluptas, quis quo amet aliquid soluta ut repudiandae ab quibusdam commodi porro optio dolorum, ullam vitae libero ex!
             Expedita nam amet iste excepturi eveniet, non, ut culpa fugiat ipsa tempore consequuntur animi doloremque eius corrupti. Enim unde eveniet nam numquam blanditiis, illo tempore consectetur non in architecto ut.
             Debitis porro temporibus provident suscipit cumque blanditiis ea numquam alias maiores, animi, veritatis atque laboriosam perferendis molestiae error aliquam tempore voluptas nam harum eum iure recusandae. Reiciendis officia aspernatur laudantium.
