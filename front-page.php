@@ -26,7 +26,7 @@
             </div>
             <div class="text-center">
                 <div class="product-image w-[400px] h-[400px] rounded-full bg-white mx-auto overflow-hidden">
-                    <img src="http://localhost/purus/wp-content/uploads/2022/07/Purus-Image-package.png" class="w-[100%]"/>
+                    <img src="https://staging2.puruspotus.com/wp-content/uploads/Purus-Image-package.png" class="w-[100%]"/>
                 </div>
             </div>
         </div>
@@ -52,7 +52,7 @@
         </div>
         <div class="bg-black p-8 rounded-xl text-center sm:mb-4">
             <div class="product-image w-[250px] h-[250px] rounded-full bg-white mx-auto overflow-hidden">
-                <img src="http://localhost/purus/wp-content/uploads/2022/07/Purus-Image-package.png" class="w-[100%]"/>
+                <img src="https://staging2.puruspotus.com/wp-content/uploads/Purus-Image-package.png" class="w-[100%]"/>
             </div>
 
             <h3 class="uppercase text-primary font-serif text-xl font-bold my-8">Product #1</h3>
@@ -62,7 +62,7 @@
         </div>
         <div class="bg-black p-8 rounded-xl text-center sm:mb-4">
             <div class="product-image w-[250px] h-[250px] rounded-full bg-white mx-auto overflow-hidden">
-                <img src="http://localhost/purus/wp-content/uploads/2022/07/Purus-Image-package.png" class="w-[100%]"/>
+                <img src="https://staging2.puruspotus.com/wp-content/uploads/Purus-Image-package.png" class="w-[100%]"/>
             </div>
 
             <h3 class="uppercase text-primary font-serif text-xl font-bold my-8">Product #2</h3>
@@ -72,7 +72,7 @@
         </div>
         <div class="bg-primary p-8 rounded-xl text-center sm:mb-4">
             <div class="product-image w-[250px] h-[250px] rounded-full bg-white mx-auto overflow-hidden">
-                <img src="http://localhost/purus/wp-content/uploads/2022/07/Purus-Image-package.png" class="w-[100%]"/>
+                <img src="https://staging2.puruspotus.com/wp-content/uploads/Purus-Image-package.png" class="w-[100%]"/>
             </div>
 
             <h3 class="uppercase text-black font-serif text-xl font-bold my-8">Subsrciption</h3>
@@ -90,7 +90,7 @@
             <a href="#" class="text-primary uppercase">Read More &rarr;</a>
         </div>
         <div class="testimonial-image w-full h-auto aspect-square border-8 border-primary rounded-full overflow-hidden">
-            <img src="http://localhost/purus/wp-content/uploads/2022/07/Testimonial-1.jpg" alt="">
+            <img src="https://staging2.puruspotus.com/wp-content/uploads/Testimonial-1.jpg" alt="">
         </div>
         <div class="testimonial-text">
         <p>Drinking red wine was embarrassing and
