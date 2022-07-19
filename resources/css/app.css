@@ -1,0 +1,12 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "custom.css";
+@font-face {
+    font-family: 'Denver';
+    src: url('./../fonts/DenverBlack.woff');
+    font-weight: bolder;
+    font-style: normal;
+    font-display: swap;
+}
