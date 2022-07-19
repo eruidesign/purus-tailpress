@@ -18,7 +18,7 @@
     <div class="overlay h-[100%] w-[100%] bg-opacity-60 bg-black flex flex-grow items-center">
         <div class="container lg:max-w-screen-xl mx-auto p-4 md:grid md:grid-cols-2">
             <div>
-                <h1 class="text-3xl lg:text-7xl tracking-tight font-extrabold my-4 text-primary font-denver">Purus</h1>
+                <h1 class="text-3xl lg:text-5xl tracking-tight font-extrabold my-4 text-primary font-denver">Purus</h1>
                 <p class="max-w-screen-lg text-white font-serif text-3xl mb-10">Drink better <span class="text-primary">&#9679;</span> Feel better</p>
                 <a href="#" class="w-full sm:w-auto flex-none bg-transparent text-primary leading-6 py-3 px-6 border border-primary rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200">CTA Here &rarr;</a>
         
