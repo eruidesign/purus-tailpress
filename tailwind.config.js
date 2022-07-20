@@ -32,7 +32,14 @@ module.exports = {
             'lg': tailpress.theme('settings.layout.contentSize', theme),
             'xl': tailpress.theme('settings.layout.wideSize', theme),
             '2xl': '1440px'
-        }
+        },
+        backgroundSize: {
+            'auto': 'auto',
+            'cover': 'cover',
+            'contain': 'contain',
+            '50%': '50%',
+            '16': '4rem',
+          }
     },
     plugins: [
         tailpress.tailwind
