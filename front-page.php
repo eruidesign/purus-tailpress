@@ -18,21 +18,21 @@
     <div class="overlay h-[100%] w-[100%] bg-opacity-60 bg-black flex flex-grow items-center">
         <div class="container lg:max-w-screen-xl mx-auto p-4 md:grid md:grid-cols-2">
             <div>
-                <h1 class="text-3xl lg:text-7xl tracking-tight font-extrabold my-4 text-primary font-denver">Purus</h1>
+                <h1 class="text-5xl lg:text-7xl tracking-tight font-extrabold my-4 text-primary font-denver">Purus</h1>
                 <p class="max-w-screen-lg text-white font-serif text-3xl mb-10">Drink better <span class="text-primary">&#9679;</span> Feel better</p>
-                <a href="#" class="w-full sm:w-auto flex-none bg-transparent text-primary leading-6 py-3 px-6 border border-primary rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200">CTA Here &rarr;</a>
+                <a href="#" class="flex-none block md:inline-block bg-transparent text-center text-primary leading-6 py-3 px-6 mb-4 border border-primary rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200">CTA Here &rarr;</a>
         
-                <a href="#" class="w-full sm:w-auto flex-none bg-primary text-black leading-6 py-3 px-6 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200">Another CTA Here &rarr;</a>
+                <a href="#" class="flex-none block md:inline-block bg-primary text-center text-black leading-6 py-3 px-6 mb-8 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200">Another CTA Here &rarr;</a>
             </div>
             <div class="text-center">
-                <div class="product-image w-[400px] h-[400px] rounded-full bg-white mx-auto overflow-hidden">
+                <div class="product-image w-[300px] h-[300px] md:w-[400px] md:h-[400px] rounded-full bg-white mx-auto mt-8 md:mt-0 overflow-hidden">
                     <img src="https://staging2.puruspotus.com/wp-content/uploads/Purus-Image-package.png" class="w-[100%]"/>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="lg:min-h-[40rem] bg-black text-white flex items-center" style="background: #040707 url(<?php echo get_the_post_thumbnail_url($section_2_ID,'banner-1440x800');?>) no-repeat;background-position:left bottom; background-size: contain;">
+<section class="section-about lg:min-h-[40rem] text-white flex items-center" style="background: #040707 url(<?php echo get_the_post_thumbnail_url($section_2_ID,'banner-1440x800');?>) no-repeat left bottom;">
     <div class="container lg:max-w-screen-xl mx-auto p-4 flex flex-row-reverse">
         <div class="lg:basis-1/2">
             <h2 class="text-3xl lg:text-5xl tracking-tight my-4 text-primary font-serif">About <span class="font-denver text-white">Purus</span></h2>
@@ -45,12 +45,12 @@
     </div>
 </section>
 <section class="lg:min-h-[40rem] bg-zinc-900 text-white py-8" style="background: url(<?php echo get_the_post_thumbnail_url($section_3_ID,'banner-1440x800');?>);">
-    <div class="container lg:max-w-screen-xl mx-auto px-4 md:grid md:grid-cols-3 gap-8">
-        <div class="section-description col-span-3">
+    <div class="container lg:max-w-screen-xl mx-auto px-4 md:grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="section-description md:col-span-2 lg:col-span-3">
             <h2 class="text-3xl lg:text-5xl tracking-tight my-4 text-primary font-serif">Our Products</h2>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
         </div>
-        <div class="bg-black p-8 rounded-xl text-center sm:mb-4">
+        <div class="bg-black p-8 rounded-xl text-center mb-4">
             <div class="product-image w-[250px] h-[250px] rounded-full bg-white mx-auto overflow-hidden">
                 <img src="https://staging2.puruspotus.com/wp-content/uploads/Purus-Image-package.png" class="w-[100%]"/>
             </div>
@@ -60,7 +60,7 @@
             <a href="#" class="text-primary uppercase mt-8 inline-block px-4 py-2 border border-primary rounded-lg">Read More &rarr;</a>
             <a href="#" class="text-black bg-primary uppercase mt-8 inline-block px-4 py-2 rounded-md ml-4 border-transparent">Add to Cart &rarr;</a>
         </div>
-        <div class="bg-black p-8 rounded-xl text-center sm:mb-4">
+        <div class="bg-black p-8 rounded-xl text-center mb-4">
             <div class="product-image w-[250px] h-[250px] rounded-full bg-white mx-auto overflow-hidden">
                 <img src="https://staging2.puruspotus.com/wp-content/uploads/Purus-Image-package.png" class="w-[100%]"/>
             </div>
@@ -70,7 +70,7 @@
             <a href="#" class="text-primary uppercase mt-8 inline-block px-4 py-2 border border-primary rounded-lg">Read More &rarr;</a>
             <a href="#" class="text-black bg-primary uppercase mt-8 inline-block px-4 py-2 rounded-md ml-4 border-transparent">Add to Cart &rarr;</a>
         </div>
-        <div class="bg-primary p-8 rounded-xl text-center sm:mb-4">
+        <div class="bg-primary p-8 rounded-xl text-center mb-4">
             <div class="product-image w-[250px] h-[250px] rounded-full bg-white mx-auto overflow-hidden">
                 <img src="https://staging2.puruspotus.com/wp-content/uploads/Purus-Image-package.png" class="w-[100%]"/>
             </div>
@@ -82,17 +82,17 @@
         </div>
     </div>
 </section>
-<section class="lg:min-h-[40rem] bg-black text-white" style="background: #040707 url(<?php echo get_the_post_thumbnail_url($section_4_ID,'banner-1440x800');?>) no-repeat; background-position: right bottom; background-size: contain;">
+<section class="section-testimonials lg:min-h-[40rem] bg-black text-white" style="background: #040707 url(<?php echo get_the_post_thumbnail_url($section_4_ID,'banner-1440x800');?>) no-repeat right bottom;">
     <div class="container lg:max-w-screen-xl mx-auto p-4 md:grid md:grid-cols-3 gap-8">
         <div class="section-description col-span-3">
             <h2 class="text-3xl lg:text-5xl tracking-tight my-4 text-primary font-serif">Testimonials</h2>
             <p>Receive a free Purus if you send in a taste comparrison video or testimonial</p>
             <a href="#" class="text-primary uppercase">Read More &rarr;</a>
         </div>
-        <div class="testimonial-image w-full h-auto aspect-square border-8 border-primary rounded-full overflow-hidden">
+        <div class="testimonial-image w-[300px] md:w-full aspect-square my-8 self-center mx-auto border-8 border-primary rounded-full overflow-hidden">
             <img src="https://staging2.puruspotus.com/wp-content/uploads/Testimonial-1.jpg" alt="">
         </div>
-        <div class="testimonial-text">
+        <div class="testimonial-text self-center">
         <p>Drinking red wine was embarrassing and
 not enjoyable for me w/ the reddened skin
 reaction I had after consuming a glass and

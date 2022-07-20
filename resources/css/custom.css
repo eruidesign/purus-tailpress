@@ -41,6 +41,14 @@ article > *:not(.entry-content),
     }
 }
 
-.overlay{
-    width: ;
+@media (min-width: 640px){
+    .section-about, .section-testimonials{
+        background-size: contain !important;
+    }
+}
+@media (max-width: 639px){
+    .section-about, .section-testimonials{
+        background-size: auto 60vh !important;
+        padding-bottom: 50vh;
+    }
 }
