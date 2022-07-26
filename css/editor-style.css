@@ -48,12 +48,12 @@
   grid-column: span 3 / span 3
 }
 
-.col-span-2 {
-  grid-column: span 2 / span 2
-}
-
 .col-span-1 {
   grid-column: span 1 / span 1
+}
+
+.col-span-2 {
+  grid-column: span 2 / span 2
 }
 
 .float-none {
@@ -112,25 +112,10 @@
   margin-bottom: 3rem
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
->>>>>>> b23d17f9cedd5181830a3ad9e6e105d60430c084
 .mb-5 {
   margin-bottom: 1.25rem
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 3a0d4ebba43d0ddc1a0461a1b8d05ac246aa28b7
->>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
->>>>>>> b23d17f9cedd5181830a3ad9e6e105d60430c084
 .block {
   display: block
 }
@@ -171,19 +156,6 @@
   height: 250px
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-.h-auto {
-  height: auto
-}
-
->>>>>>> 3a0d4ebba43d0ddc1a0461a1b8d05ac246aa28b7
->>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
->>>>>>> b23d17f9cedd5181830a3ad9e6e105d60430c084
 .h-6 {
   height: 1.5rem
 }
@@ -228,25 +200,10 @@
   max-width: 960px
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
->>>>>>> b23d17f9cedd5181830a3ad9e6e105d60430c084
 .max-w-md {
   max-width: 28rem
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 3a0d4ebba43d0ddc1a0461a1b8d05ac246aa28b7
->>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
->>>>>>> b23d17f9cedd5181830a3ad9e6e105d60430c084
 .flex-none {
   flex: none
 }
@@ -255,25 +212,10 @@
   flex-grow: 1
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
->>>>>>> b23d17f9cedd5181830a3ad9e6e105d60430c084
 .grow {
   flex-grow: 1
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 3a0d4ebba43d0ddc1a0461a1b8d05ac246aa28b7
->>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
->>>>>>> b23d17f9cedd5181830a3ad9e6e105d60430c084
 .cursor-pointer {
   cursor: pointer
 }
@@ -286,18 +228,10 @@
   list-style-type: decimal
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
->>>>>>> b23d17f9cedd5181830a3ad9e6e105d60430c084
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr))
 }
 
-<<<<<<< HEAD
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr))
 }
@@ -306,13 +240,6 @@
   grid-template-columns: repeat(4, minmax(0, 1fr))
 }
 
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 3a0d4ebba43d0ddc1a0461a1b8d05ac246aa28b7
->>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
->>>>>>> b23d17f9cedd5181830a3ad9e6e105d60430c084
 .flex-row-reverse {
   flex-direction: row-reverse
 }
@@ -335,13 +262,6 @@
 
 .gap-8 {
   gap: 2rem
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
->>>>>>> b23d17f9cedd5181830a3ad9e6e105d60430c084
 }
 
 .gap-4 {
@@ -354,14 +274,6 @@
 
 .self-center {
   align-self: center
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 3a0d4ebba43d0ddc1a0461a1b8d05ac246aa28b7
->>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
->>>>>>> b23d17f9cedd5181830a3ad9e6e105d60430c084
 }
 
 .justify-self-end {
@@ -450,13 +362,6 @@
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity))
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
->>>>>>> b23d17f9cedd5181830a3ad9e6e105d60430c084
 }
 
 .bg-gray-100 {
@@ -472,33 +377,12 @@
 .bg-gray-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(107 114 128 / var(--tw-bg-opacity))
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 3a0d4ebba43d0ddc1a0461a1b8d05ac246aa28b7
->>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
->>>>>>> b23d17f9cedd5181830a3ad9e6e105d60430c084
 }
 
 .bg-opacity-60 {
   --tw-bg-opacity: 0.6
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-.bg-contain {
-  background-size: contain
-}
-
->>>>>>> 3a0d4ebba43d0ddc1a0461a1b8d05ac246aa28b7
->>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
->>>>>>> b23d17f9cedd5181830a3ad9e6e105d60430c084
 .p-4 {
   padding: 1rem
 }
@@ -549,26 +433,11 @@
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
->>>>>>> b23d17f9cedd5181830a3ad9e6e105d60430c084
 }
 
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 3a0d4ebba43d0ddc1a0461a1b8d05ac246aa28b7
->>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
->>>>>>> b23d17f9cedd5181830a3ad9e6e105d60430c084
 }
 
 .text-center {
@@ -616,26 +485,11 @@
   line-height: 1.25rem
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
->>>>>>> b23d17f9cedd5181830a3ad9e6e105d60430c084
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 3a0d4ebba43d0ddc1a0461a1b8d05ac246aa28b7
->>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
->>>>>>> b23d17f9cedd5181830a3ad9e6e105d60430c084
 .font-light {
   font-weight: 300
 }
@@ -708,13 +562,6 @@
   color: rgb(55 65 81 / var(--tw-text-opacity))
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
->>>>>>> b23d17f9cedd5181830a3ad9e6e105d60430c084
 .text-gray-400 {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity))
@@ -722,16 +569,6 @@
 
 .text-blue-500 {
   --tw-text-opacity: 1;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-.text-blue-500 {
-  --tw-text-opacity: 1;
->>>>>>> 3a0d4ebba43d0ddc1a0461a1b8d05ac246aa28b7
->>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
->>>>>>> b23d17f9cedd5181830a3ad9e6e105d60430c084
   color: rgb(59 130 246 / var(--tw-text-opacity))
 }
 
@@ -977,25 +814,10 @@ body {
     grid-template-columns: repeat(3, minmax(0, 1fr))
   }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
->>>>>>> b23d17f9cedd5181830a3ad9e6e105d60430c084
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr))
   }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 3a0d4ebba43d0ddc1a0461a1b8d05ac246aa28b7
->>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
->>>>>>> b23d17f9cedd5181830a3ad9e6e105d60430c084
   .lg\:items-center {
     align-items: center
   }
