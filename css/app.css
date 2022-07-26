@@ -653,10 +653,19 @@ video {
   margin-bottom: 3rem;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
 .mb-5 {
   margin-bottom: 1.25rem;
 }
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 3a0d4ebba43d0ddc1a0461a1b8d05ac246aa28b7
+>>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
 .block {
   display: block;
 }
@@ -797,18 +806,36 @@ video {
   gap: 2rem;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
 .gap-4 {
   gap: 1rem;
 }
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 3a0d4ebba43d0ddc1a0461a1b8d05ac246aa28b7
+>>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
 .self-center {
   align-self: center;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
 .justify-self-end {
   justify-self: end;
 }
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 3a0d4ebba43d0ddc1a0461a1b8d05ac246aa28b7
+>>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
 .overflow-hidden {
   overflow: hidden;
 }
@@ -881,15 +908,28 @@ video {
 
 .bg-transparent {
   background-color: transparent;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
 }
 
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 3a0d4ebba43d0ddc1a0461a1b8d05ac246aa28b7
+>>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
 }
 
 .bg-gray-100 {
   --tw-bg-opacity: 1;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
@@ -901,6 +941,12 @@ video {
 .bg-gray-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+<<<<<<< HEAD
+=======
+=======
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+>>>>>>> 3a0d4ebba43d0ddc1a0461a1b8d05ac246aa28b7
+>>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
 }
 
 .bg-opacity-60 {
@@ -1082,11 +1128,20 @@ video {
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
 .text-gray-400 {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 3a0d4ebba43d0ddc1a0461a1b8d05ac246aa28b7
+>>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
@@ -1386,10 +1441,19 @@ article > *:not(.entry-content),
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 3a0d4ebba43d0ddc1a0461a1b8d05ac246aa28b7
+>>>>>>> 6907eaa484307f0712749dbc448a59a65d169ed4
   .lg\:items-center {
     align-items: center;
   }
