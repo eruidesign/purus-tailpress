@@ -31,7 +31,7 @@ if ( post_password_required() ) {
 	return;
 }
 ?>
-<div id="product-<?php the_ID(); ?>" class="single-product-top md:grid md:grid-cols-[2fr_1fr] gap-8 p-8">
+<div id="product-<?php the_ID(); ?>" class="single-product-top md:flex gap-8 p-8">
 
 <!--<header>
 
@@ -52,7 +52,7 @@ if ( post_password_required() ) {
 	do_action( 'woocommerce_before_single_product_summary' );
 	?>
 
-	<div class="prod-summary border rounded-lg p-8 place-self-start bg-white">
+	<div class="prod-summary border rounded-lg md:flex-basis-1/3 bg-white">
 		<?php
 		/**
 		 * Hook: woocommerce_single_product_summary.
