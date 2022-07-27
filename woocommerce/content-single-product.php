@@ -33,14 +33,6 @@ if ( post_password_required() ) {
 ?>
 <div id="product-<?php the_ID(); ?>" class="single-product-top md:flex gap-8 p-8">
 
-<!--<header>
-
-<?php woocommerce_template_single_title();?>
-<?php echo $product->get_type();?>
-<?php woocommerce_template_single_rating();?>
-<?php woocommerce_template_single_meta();?>
-
-</header>-->
 
 	<?php
 	/**
