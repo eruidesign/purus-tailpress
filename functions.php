@@ -111,3 +111,10 @@ add_filter( 'nav_menu_submenu_css_class', 'tailpress_nav_menu_add_submenu_class'
 /** Custom Image Sizes **/
 add_image_size('banner-1440x600', 1440, 600, true);
 add_image_size('banner-1440x800', 1440, 800, true);
+
+/** Add Woocommerce support **/
+function mytheme_add_woocommerce_support() {
+    add_theme_support( 'woocommerce' );
+}
+
+add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );

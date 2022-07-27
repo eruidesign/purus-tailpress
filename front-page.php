@@ -45,41 +45,36 @@
     </div>
 </section>
 <section class="lg:min-h-[40rem] bg-zinc-900 text-white py-8" style="background: url(<?php echo get_the_post_thumbnail_url($section_3_ID,'banner-1440x800');?>);">
-    <div class="container lg:max-w-screen-xl mx-auto px-4 md:grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="container lg:max-w-screen-xl mx-auto px-4">
         <div class="section-description md:col-span-2 lg:col-span-3">
             <h2 class="text-3xl lg:text-5xl tracking-tight my-4 text-primary font-serif">Our Products</h2>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
         </div>
-        <div class="bg-black p-8 rounded-xl text-center mb-4">
-            <div class="product-image w-[250px] h-[250px] rounded-full bg-white mx-auto overflow-hidden">
-                <img src="https://staging2.puruspotus.com/wp-content/uploads/Purus-Image-package.png" class="w-[100%]"/>
+       <?php if ( woocommerce_product_loop() ) : ?>
+
+            <div class="products md:grid md:grid-cols-2 gap-4 justify-items-center">
+            <?php
+                $args = array(
+                    'post_type' => 'product',
+                    'posts_per_page' => 12
+                    );
+                $loop = new WP_Query( $args );
+                if ( $loop->have_posts() ) {
+                    while ( $loop->have_posts() ) : $loop->the_post();
+                        wc_get_template_part( 'content', 'product' );
+                    endwhile;
+                } else {
+                    echo __( 'No products found' );
+                }
+                wp_reset_postdata();
+            ?>
             </div>
 
-            <h3 class="uppercase text-primary font-serif text-xl font-bold my-8">Product #1</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, temporibus.</p>
-            <a href="#" class="text-primary uppercase mt-8 inline-block px-4 py-2 border border-primary rounded-lg">Read More &rarr;</a>
-            <a href="#" class="text-black bg-primary uppercase mt-8 inline-block px-4 py-2 rounded-md ml-4 border-transparent">Add to Cart &rarr;</a>
-        </div>
-        <div class="bg-black p-8 rounded-xl text-center mb-4">
-            <div class="product-image w-[250px] h-[250px] rounded-full bg-white mx-auto overflow-hidden">
-                <img src="https://staging2.puruspotus.com/wp-content/uploads/Purus-Image-package.png" class="w-[100%]"/>
-            </div>
+        <?php else : ?>
 
-            <h3 class="uppercase text-primary font-serif text-xl font-bold my-8">Product #2</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, temporibus.</p>
-            <a href="#" class="text-primary uppercase mt-8 inline-block px-4 py-2 border border-primary rounded-lg">Read More &rarr;</a>
-            <a href="#" class="text-black bg-primary uppercase mt-8 inline-block px-4 py-2 rounded-md ml-4 border-transparent">Add to Cart &rarr;</a>
-        </div>
-        <div class="bg-primary p-8 rounded-xl text-center mb-4">
-            <div class="product-image w-[250px] h-[250px] rounded-full bg-white mx-auto overflow-hidden">
-                <img src="https://staging2.puruspotus.com/wp-content/uploads/Purus-Image-package.png" class="w-[100%]"/>
-            </div>
+            <?php do_action( 'woocommerce_no_products_found' ); ?>
 
-            <h3 class="uppercase text-black font-serif text-xl font-bold my-8">Subsrciption</h3>
-            <p>2, 4 or 6 per season<br>( 4x / year )</p>
-            <a href="#" class="text-black uppercase mt-8 inline-block px-4 py-2 border border-black rounded-lg">Read More &rarr;</a>
-            <a href="#" class="text-primary bg-black uppercase mt-8 inline-block px-4 py-2 rounded-md ml-4 border-transparent">Add to Cart &rarr;</a>
-        </div>
+        <?php endif;?>
     </div>
 </section>
 <section class="section-testimonials lg:min-h-[40rem] bg-black text-white" style="background: #040707 url(<?php echo get_the_post_thumbnail_url($section_4_ID,'banner-1440x800');?>) no-repeat right bottom;">

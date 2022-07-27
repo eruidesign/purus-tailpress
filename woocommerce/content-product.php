@@ -24,14 +24,50 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	return;
 }
 ?>
+<div <?php wc_product_class( 'bg-black text-white p-4 rounded-lg md:w-96 w-full', $product ); ?>>
+	<?php
+	/**
+	 * Hook: woocommerce_before_shop_loop_item.
+	 *
+	 * @hooked woocommerce_template_loop_product_link_open - 10
+	 */
+	do_action( 'woocommerce_before_shop_loop_item' );
 
-<div class="overflow-hidden rounded-lg bg-gray-100 flex flex-col">
-	<div class="text-center flex-grow">
-		<?php the_post_thumbnail('woocommerce_thumbnail',array('class' => 'w-full'));?>
-		<h3 class="my-4 text-xl"><?php the_title();?></h3>
-		<div class="text-gray-400 p-4 text-sm text-justify"><?php the_excerpt();?></div>
-	</div>
-	<div class="p-4 flex">
-		<a href="<?php the_permalink();?>" class="grow bg-gray-500 text-white text-center rounded p-2 justify-self-end hover:bg-gray-400">More<span> →</span></a>
-	</div>
+	/**
+	 * Hook: woocommerce_before_shop_loop_item_title.
+	 *
+	 * @hooked woocommerce_show_product_loop_sale_flash - 10
+	 * @hooked woocommerce_template_loop_product_thumbnail - 10
+	 */
+	do_action( 'woocommerce_before_shop_loop_item_title' );
+
+	/**
+	 * Hook: woocommerce_shop_loop_item_title.
+	 *
+	 * @hooked woocommerce_template_loop_product_title - 10
+	 */
+	do_action( 'woocommerce_shop_loop_item_title' );
+
+	/**
+	 * Hook: woocommerce_after_shop_loop_item_title.
+	 *
+	 * @hooked woocommerce_template_loop_rating - 5
+	 * @hooked woocommerce_template_loop_price - 10
+	 */
+	do_action( 'woocommerce_after_shop_loop_item_title' );
+?>
+
+
+	<div class="woocommerce-loop-product__customdesc text-sm text-slate-400 my-4"><?php the_excerpt();?></div>
+
+<?php
+
+	/**
+	 * Hook: woocommerce_after_shop_loop_item.
+	 *
+	 * @hooked woocommerce_template_loop_product_link_close - 5
+	 * @hooked woocommerce_template_loop_add_to_cart - 10
+	 */
+	do_action( 'woocommerce_after_shop_loop_item' );
+	?>
 </div>

@@ -52,3 +52,22 @@ article > *:not(.entry-content),
         padding-bottom: 50vh;
     }
 }
+
+.woocommerce img, .woocommerce-page img {
+    @apply mx-auto;
+}
+
+.woocommerce-loop-product__link{
+    @apply flex flex-col text-center;
+}
+.added_to_cart{
+    @apply col-span-2 order-last;
+}
+.woocommerce-loop-product__title{
+    @apply uppercase text-primary font-serif text-xl font-bold my-8;
+}
+
+/*.woocommerce-loop-product__customdesc{
+    @apply uppercase text-primary font-serif text-xl font-bold my-8;
+}*/
+

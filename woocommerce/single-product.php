@@ -19,9 +19,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
-get_header( 'shop' ); ?>
+get_header( 'shop' ); 
+$shop_page_ID = get_option( 'woocommerce_shop_page_id' );
+$shop_page = get_post($shop_page_ID);
 
-<div class="container my-8 mx-auto">
+?>
+
+<div class="container p-8 mx-auto" style="background-image: url(<?php echo get_the_post_thumbnail_url($shop_page_ID,'banner-1440x600');?>);">
 
 	<?php
 		if ( function_exists('yoast_breadcrumb') ) {

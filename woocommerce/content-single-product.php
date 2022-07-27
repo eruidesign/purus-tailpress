@@ -31,15 +31,16 @@ if ( post_password_required() ) {
 	return;
 }
 ?>
-<div id="product-<?php the_ID(); ?>" <?php wc_product_class( 'grid grid-cols-3 gap-8 align-items-start', $product ); ?>>
-<header class="product-header col-span-3">
+<div id="product-<?php the_ID(); ?>" class="grid grid-cols-3 gap-8">
+
+<!--
 
 <?php woocommerce_template_single_title();?>
 <?php echo $product->get_type();?>
 <?php woocommerce_template_single_rating();?>
 <?php woocommerce_template_single_meta();?>
 
-</header>
+</header>-->
 
 	<?php
 	/**
@@ -51,7 +52,7 @@ if ( post_password_required() ) {
 	do_action( 'woocommerce_before_single_product_summary' );
 	?>
 
-	<div class="summary entry-summary border rounded-lg p-8 place-self-start col-span-1">
+	<div class="prod-summary border rounded-lg p-8 place-self-start col-span-1 bg-white">
 		<?php
 		/**
 		 * Hook: woocommerce_single_product_summary.
@@ -77,7 +78,7 @@ if ( post_password_required() ) {
 	 * @hooked woocommerce_upsell_display - 15
 	 * @hooked woocommerce_output_related_products - 20
 	 */
-	do_action( 'woocommerce_after_single_product_summary' );
+	//do_action( 'woocommerce_after_single_product_summary' );
 	?>
 </div>
 
