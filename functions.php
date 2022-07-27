@@ -118,3 +118,6 @@ function mytheme_add_woocommerce_support() {
 }
 
 add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
+
+	
+add_post_type_support( 'page', 'excerpt' );

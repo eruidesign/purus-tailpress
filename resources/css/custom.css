@@ -78,3 +78,33 @@ article > *:not(.entry-content),
     @apply uppercase text-primary font-serif text-xl font-bold my-8;
 }*/
 
+.woocommerce-tabs{
+    @apply p-8;
+}
+.related.products{
+    @apply p-8;
+}
+
+.related.products > h2{
+    @apply bg-gray-600 p-4 text-white;
+}
+
+.related.products .products{
+    @apply bg-gray-50 p-8 text-white;
+}
+
+.wc-tabs{
+    @apply flex;
+}
+.wc-tabs .active{
+    @apply bg-gray-50 text-gray-700;
+}
+
+.woocommerce-Tabs-panel{
+    @apply bg-gray-50;
+}
+
+.woocommerce-Tabs-panel h2{
+    @apply text-gray-700 font-bold mb-8;
+}
+

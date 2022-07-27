@@ -25,7 +25,7 @@ $shop_page = get_post($shop_page_ID);
 
 ?>
 
-<div class="container p-8 mx-auto" style="background-image: url(<?php echo get_the_post_thumbnail_url($shop_page_ID,'banner-1440x600');?>);">
+<div class="py-8 mx-auto" style="background-image: url(<?php echo get_the_post_thumbnail_url($shop_page_ID,'banner-1440x600');?>);">
 
 	<?php
 		if ( function_exists('yoast_breadcrumb') ) {
@@ -40,7 +40,7 @@ $shop_page = get_post($shop_page_ID);
 		 * @hooked woocommerce_output_content_wrapper - 10 (outputs opening divs for the content)
 		 * @hooked woocommerce_breadcrumb - 20
 		 */
-		//do_action( 'woocommerce_before_main_content' );
+		do_action( 'woocommerce_before_main_content' );
 	?>
 
 
@@ -55,7 +55,7 @@ $shop_page = get_post($shop_page_ID);
 		 *
 		 * @hooked woocommerce_output_content_wrapper_end - 10 (outputs closing divs for the content)
 		 */
-		//do_action( 'woocommerce_after_main_content' );
+		do_action( 'woocommerce_after_main_content' );
 	?>
 
 	<?php
