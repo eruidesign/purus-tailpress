@@ -60,8 +60,15 @@ article > *:not(.entry-content),
 .woocommerce-loop-product__link{
     @apply flex flex-col text-center;
 }
+.woocommerce-loop-product__link .size-woocommerce_thumbnail{
+    @apply rounded-full bg-white border-4 border-primary;
+}
 .added_to_cart{
-    @apply col-span-2 order-last;
+    @apply col-span-2 order-last text-green-600;
+
+}
+.added_to_cart::after{
+    content: ' →';
 }
 .woocommerce-loop-product__title{
     @apply uppercase text-primary font-serif text-xl font-bold my-8;

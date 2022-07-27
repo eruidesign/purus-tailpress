@@ -44,7 +44,7 @@
         </div>
     </div>
 </section>
-<section class="lg:min-h-[40rem] bg-zinc-900 text-white py-8" style="background: url(<?php echo get_the_post_thumbnail_url($section_3_ID,'banner-1440x800');?>);">
+<section class="lg:min-h-[40rem] bg-zinc-900 text-white py-8 bg-cover" style="background: url(<?php echo get_the_post_thumbnail_url($section_3_ID,'banner-1440x800');?>);">
     <div class="container lg:max-w-screen-xl mx-auto px-4">
         <div class="section-description md:col-span-2 lg:col-span-3">
             <h2 class="text-3xl lg:text-5xl tracking-tight my-4 text-primary font-serif">Our Products</h2>
