@@ -85,7 +85,7 @@
             <a href="#" class="text-primary uppercase">Read More &rarr;</a>
         </div>
 
-        <div class="p-4 md:grid md:grid-cols-3 gap-8">
+        <div class="p-4 md:grid md:grid-cols-[1fr_2fr] gap-8">
             <div class="testimonial-image w-[300px] md:w-full aspect-square my-8 self-center mx-auto border-8 border-primary rounded-full overflow-hidden">
                 <img src="https://staging2.puruspotus.com/wp-content/uploads/Testimonial-1.jpg" alt="">
             </div>

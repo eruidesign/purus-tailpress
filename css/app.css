@@ -1513,6 +1513,18 @@ article > *:not(.entry-content),
     grid-template-columns: 2fr 1fr;
   }
 
+  .md\:grid-cols-\[\] {
+    grid-template-columns: ;
+  }
+
+  .md\:grid-cols-\[1fr_\] {
+    grid-template-columns: 1fr;
+  }
+
+  .md\:grid-cols-\[1fr_2fr\] {
+    grid-template-columns: 1fr 2fr;
+  }
+
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
