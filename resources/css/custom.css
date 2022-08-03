@@ -176,7 +176,7 @@ main p{
 
   /* Cart */
 
-  .checkout-button{
+  .woocommerce-cart .wc-proceed-to-checkout a.checkout-button {
     @apply py-2 mr-auto w-40 mt-3 text-lg font-bold text-white border-2 border-transparent bg-primary rounded shadow-md;
       &:hover {
         @apply bg-white text-primary border-primary shadow-lg;

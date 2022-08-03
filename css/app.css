@@ -1781,7 +1781,7 @@ main p {
 
 /* Cart */
 
-.checkout-button {
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button {
   margin-right: auto;
   margin-top: 0.75rem;
   width: 10rem;
@@ -1802,28 +1802,28 @@ main p {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.checkout-button:hover {
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover {
     --tw-border-opacity: 1;
     border-color: rgb(176 151 109 / var(--tw-border-opacity));
   }
 
-.checkout-button:hover {
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover {
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
 
-.checkout-button:hover {
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover {
     --tw-text-opacity: 1;
     color: rgb(176 151 109 / var(--tw-text-opacity));
   }
 
-.checkout-button:hover {
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover {
     --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
     --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
-.checkout-button:focus {
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:focus {
     outline: 2px solid transparent;
     outline-offset: 2px;
   }
