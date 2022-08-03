@@ -1938,6 +1938,23 @@ main p {
       outline-offset: 2px;
     }
 
+.woocommerce-checkout h3 {
+    padding-bottom: 1rem;
+  }
+
+.woocommerce-checkout h3 {
+    font-weight: 600;
+  }
+
+.woocommerce-checkout h3 {
+    text-transform: uppercase;
+  }
+
+.woocommerce-checkout h3 {
+    --tw-text-opacity: 1;
+    color: rgb(176 151 109 / var(--tw-text-opacity));
+  }
+
 .woocommerce-checkout #place_order {
     margin-right: auto;
   }

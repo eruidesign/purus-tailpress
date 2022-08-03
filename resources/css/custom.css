@@ -204,6 +204,10 @@ main p{
       }
     }
 
+    h3{
+        @apply text-primary font-semibold uppercase pb-4;
+    }
+
     #place_order{
         @apply py-2 mr-auto w-40 mt-3 text-lg font-bold text-white border-2 border-transparent bg-primary rounded shadow-md;
           &:hover {
