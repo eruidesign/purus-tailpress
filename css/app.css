@@ -1466,313 +1466,313 @@ main p {
   padding-bottom: 1rem;
 }
 
-.contact-form input {
+.wpcf7 input {
     margin-bottom: 0.75rem;
   }
 
-.contact-form input {
+.wpcf7 input {
     display: block;
   }
 
-.contact-form input {
+.wpcf7 input {
     width: 100%;
   }
 
-.contact-form input {
+.wpcf7 input {
     -webkit-appearance: none;
        -moz-appearance: none;
             appearance: none;
   }
 
-.contact-form input {
+.wpcf7 input {
     border-radius: 0.25rem;
   }
 
-.contact-form input {
+.wpcf7 input {
     border-width: 1px;
   }
 
-.contact-form input {
+.wpcf7 input {
     padding-left: 1rem;
     padding-right: 1rem;
   }
 
-.contact-form input {
+.wpcf7 input {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
   }
 
-.contact-form input {
+.wpcf7 input {
     font-weight: 600;
   }
 
-.contact-form input {
+.wpcf7 input {
     line-height: 1.25;
   }
 
-.contact-form input {
+.wpcf7 input {
     --tw-text-opacity: 1;
     color: rgb(176 151 109 / var(--tw-text-opacity));
   }
 
-.contact-form input:focus {
+.wpcf7 input:focus {
       outline: 2px solid transparent;
       outline-offset: 2px;
     }
 
-.contact-form textarea {
+.wpcf7 textarea {
     margin-bottom: 0.75rem;
   }
 
-.contact-form textarea {
+.wpcf7 textarea {
     display: block;
   }
 
-.contact-form textarea {
+.wpcf7 textarea {
     width: 100%;
   }
 
-.contact-form textarea {
+.wpcf7 textarea {
     -webkit-appearance: none;
        -moz-appearance: none;
             appearance: none;
   }
 
-.contact-form textarea {
+.wpcf7 textarea {
     border-radius: 0.25rem;
   }
 
-.contact-form textarea {
+.wpcf7 textarea {
     border-width: 1px;
   }
 
-.contact-form textarea {
+.wpcf7 textarea {
     padding-left: 1rem;
     padding-right: 1rem;
   }
 
-.contact-form textarea {
+.wpcf7 textarea {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
   }
 
-.contact-form textarea {
+.wpcf7 textarea {
     font-weight: 600;
   }
 
-.contact-form textarea {
+.wpcf7 textarea {
     line-height: 1.25;
   }
 
-.contact-form textarea {
+.wpcf7 textarea {
     --tw-text-opacity: 1;
     color: rgb(176 151 109 / var(--tw-text-opacity));
   }
 
-.contact-form textarea:focus {
+.wpcf7 textarea:focus {
       outline: 2px solid transparent;
       outline-offset: 2px;
     }
 
-.contact-form .wpcf7-submit {
+.wpcf7 .wpcf7-submit {
     margin-right: auto;
   }
 
-.contact-form .wpcf7-submit {
+.wpcf7 .wpcf7-submit {
     margin-top: 0.75rem;
   }
 
-.contact-form .wpcf7-submit {
+.wpcf7 .wpcf7-submit {
     width: 10rem;
   }
 
-.contact-form .wpcf7-submit {
+.wpcf7 .wpcf7-submit {
     border-radius: 0.25rem;
   }
 
-.contact-form .wpcf7-submit {
+.wpcf7 .wpcf7-submit {
     border-width: 2px;
   }
 
-.contact-form .wpcf7-submit {
+.wpcf7 .wpcf7-submit {
     border-color: transparent;
   }
 
-.contact-form .wpcf7-submit {
+.wpcf7 .wpcf7-submit {
     --tw-bg-opacity: 1;
     background-color: rgb(176 151 109 / var(--tw-bg-opacity));
   }
 
-.contact-form .wpcf7-submit {
+.wpcf7 .wpcf7-submit {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
 
-.contact-form .wpcf7-submit {
+.wpcf7 .wpcf7-submit {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
 
-.contact-form .wpcf7-submit {
+.wpcf7 .wpcf7-submit {
     font-weight: 700;
   }
 
-.contact-form .wpcf7-submit {
+.wpcf7 .wpcf7-submit {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 
-.contact-form .wpcf7-submit {
+.wpcf7 .wpcf7-submit {
     --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
-.contact-form .wpcf7-submit:hover {
+.wpcf7 .wpcf7-submit:hover {
       --tw-border-opacity: 1;
       border-color: rgb(176 151 109 / var(--tw-border-opacity));
     }
 
-.contact-form .wpcf7-submit:hover {
+.wpcf7 .wpcf7-submit:hover {
       --tw-bg-opacity: 1;
       background-color: rgb(255 255 255 / var(--tw-bg-opacity));
     }
 
-.contact-form .wpcf7-submit:hover {
+.wpcf7 .wpcf7-submit:hover {
       --tw-text-opacity: 1;
       color: rgb(176 151 109 / var(--tw-text-opacity));
     }
 
-.contact-form .wpcf7-submit:hover {
+.wpcf7 .wpcf7-submit:hover {
       --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
       --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
       box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
     }
 
-.contact-form .wpcf7-submit:focus {
+.wpcf7 .wpcf7-submit:focus {
       outline: 2px solid transparent;
       outline-offset: 2px;
     }
 
-.contact-form .wpcf7-form {
+.wpcf7 .wpcf7-form {
     margin-left: auto;
     margin-right: auto;
   }
 
-.contact-form .wpcf7-form {
+.wpcf7 .wpcf7-form {
     display: flex;
   }
 
-.contact-form .wpcf7-form {
+.wpcf7 .wpcf7-form {
     width: 100%;
   }
 
-.contact-form .wpcf7-form {
+.wpcf7 .wpcf7-form {
     max-width: 32rem;
   }
 
-.contact-form .wpcf7-form {
+.wpcf7 .wpcf7-form {
     flex-wrap: wrap;
   }
 
-.contact-form .wpcf7-form {
+.wpcf7 .wpcf7-form {
     justify-content: center;
   }
 
-.contact-form .wpcf7-form.sent .wpcf7-form-control-wrap {
+.wpcf7 .wpcf7-form.sent .wpcf7-form-control-wrap {
         display: none;
       }
 
-.contact-form .wpcf7-form-control-wrap {
+.wpcf7 .wpcf7-form-control-wrap {
     margin-bottom: 0px;
   }
 
-.contact-form .wpcf7-form-control-wrap {
+.wpcf7 .wpcf7-form-control-wrap {
     width: 100%;
   }
 
-.contact-form .wpcf7-form-control-wrap {
+.wpcf7 .wpcf7-form-control-wrap {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
   }
 
-.contact-form .wpcf7-not-valid {
+.wpcf7 .wpcf7-not-valid {
     --tw-border-opacity: 1;
     border-color: rgb(220 38 38 / var(--tw-border-opacity));
   }
 
-.contact-form .wpcf7-not-valid-tip {
+.wpcf7 .wpcf7-not-valid-tip {
     margin-bottom: 0.25rem;
   }
 
-.contact-form .wpcf7-not-valid-tip {
+.wpcf7 .wpcf7-not-valid-tip {
     margin-top: -0.25rem;
   }
 
-.contact-form .wpcf7-not-valid-tip {
+.wpcf7 .wpcf7-not-valid-tip {
     display: block;
   }
 
-.contact-form .wpcf7-not-valid-tip {
+.wpcf7 .wpcf7-not-valid-tip {
     font-size: 0.75rem;
     line-height: 1rem;
   }
 
-.contact-form .wpcf7-not-valid-tip {
+.wpcf7 .wpcf7-not-valid-tip {
     font-weight: 600;
   }
 
-.contact-form .wpcf7-not-valid-tip {
+.wpcf7 .wpcf7-not-valid-tip {
     --tw-text-opacity: 1;
     color: rgb(220 38 38 / var(--tw-text-opacity));
   }
 
-.contact-form .wpcf7-response-output {
+.wpcf7 .wpcf7-response-output {
     position: relative;
   }
 
-.contact-form .wpcf7-response-output {
+.wpcf7 .wpcf7-response-output {
     margin-top: auto;
     margin-bottom: auto;
   }
 
-.contact-form .wpcf7-response-output {
+.wpcf7 .wpcf7-response-output {
     margin-top: 0px;
   }
 
-.contact-form .wpcf7-response-output {
+.wpcf7 .wpcf7-response-output {
     border-radius: 0.25rem;
   }
 
-.contact-form .wpcf7-response-output {
+.wpcf7 .wpcf7-response-output {
     border-width: 1px;
   }
 
-.contact-form .wpcf7-response-output {
+.wpcf7 .wpcf7-response-output {
     font-size: 0.875rem;
     line-height: 1.25rem;
   }
 
-.contact-form .wpcf7-response-output {
+.wpcf7 .wpcf7-response-output {
     font-weight: 700;
   }
 
-.contact-form .wpcf7-response-output.wpcf7-validation-errors {
+.wpcf7 .wpcf7-response-output.wpcf7-validation-errors {
       --tw-border-opacity: 1;
       border-color: rgb(220 38 38 / var(--tw-border-opacity));
     }
 
-.contact-form .wpcf7-response-output.wpcf7-validation-errors {
+.wpcf7 .wpcf7-response-output.wpcf7-validation-errors {
       --tw-text-opacity: 1;
       color: rgb(220 38 38 / var(--tw-text-opacity));
     }
 
-.contact-form .wpcf7-response-output.wpcf7-mail-sent-ok {
+.wpcf7 .wpcf7-response-output.wpcf7-mail-sent-ok {
       --tw-border-opacity: 1;
       border-color: rgb(176 151 109 / var(--tw-border-opacity));
     }
 
-.contact-form .wpcf7-response-output.wpcf7-mail-sent-ok {
+.wpcf7 .wpcf7-response-output.wpcf7-mail-sent-ok {
       --tw-text-opacity: 1;
       color: rgb(176 151 109 / var(--tw-text-opacity));
     }

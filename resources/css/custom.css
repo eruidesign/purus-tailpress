@@ -112,7 +112,7 @@ main p{
     @apply pb-4;
 }
 
-.contact-form {
+.wpcf7 {
 
     input {
       @apply block w-full px-4 py-3 mb-3 leading-tight border appearance-none text-primary font-semibold rounded;
