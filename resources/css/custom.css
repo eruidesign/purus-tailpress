@@ -108,3 +108,7 @@ article > *:not(.entry-content),
     @apply text-gray-700 font-bold mb-8;
 }
 
+main p{
+    @apply pb-4;
+}
+

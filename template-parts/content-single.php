@@ -10,7 +10,10 @@
 	</header>
 
 	<div class="">
-		<?php the_excerpt();?>
+		<?php if ( has_excerpt() ) : ?>
+			<?php the_excerpt();?>
+		<?php endif;?>
+		
 		<?php the_content(); ?>
 
 		<?php
