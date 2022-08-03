@@ -220,3 +220,18 @@ main p{
 
 }
 
+/* Submenu */
+.sub-menu{
+    display: none;
+    position: absolute;
+    background: #fff;
+    padding: 1rem;
+    margin-left: -1rem;
+}
+.menu-item-has-children:hover .sub-menu{
+    display: block;
+}
+.sub-menu li{
+    margin: 0 !important;
+}
+
