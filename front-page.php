@@ -12,6 +12,9 @@
     
     $section_4_ID = 13; //Testimonials
     $section_4 = get_post($section_4_ID);
+
+    $CTA_1_ID = 580; //Congeners
+    $CTA_2_ID = 546; //Instructions
 ?>
 
 <section class="lg:min-h-[40rem] bg-zinc-900 text-white flex flex-col" style="background: url(<?php echo get_the_post_thumbnail_url($section_1_ID,'banner-1440x800');?>);">
@@ -20,9 +23,9 @@
             <div>
                 <h1 class="text-5xl lg:text-7xl tracking-tight font-extrabold my-4 text-primary font-denver">Purus</h1>
                 <p class="max-w-screen-lg text-white font-serif text-3xl mb-10">Drink better <span class="text-primary">&#9679;</span> Feel better</p>
-                <a href="#" class="flex-none block md:inline-block bg-transparent text-center text-primary leading-6 py-3 px-6 mb-4 border border-primary rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200">CTA Here &rarr;</a>
+                <a href="<?php echo get_permalink($CTA_1_ID);?>" class="flex-none block md:inline-block bg-transparent text-center text-primary leading-6 py-3 px-6 mb-4 border border-primary rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200">What are Congeners? &rarr;</a>
         
-                <a href="#" class="flex-none block md:inline-block bg-primary text-center text-black leading-6 py-3 px-6 mb-8 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200">Another CTA Here &rarr;</a>
+                <a href="<?php echo get_permalink($CTA_2_ID);?>" class="flex-none block md:inline-block bg-primary text-center text-black leading-6 py-3 px-6 mb-8 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none transition-colors duration-200">How to use PurusPotus &rarr;</a>
             </div>
             <div class="text-center">
                 <div class="product-image w-[300px] h-[300px] md:w-[400px] md:h-[400px] rounded-full bg-white mx-auto mt-8 md:mt-0 overflow-hidden">
