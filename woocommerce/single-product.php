@@ -20,8 +20,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 get_header( 'shop' ); 
-$shop_page_ID = get_option( 'woocommerce_shop_page_id' );
-$shop_page = get_post($shop_page_ID);
 
 ?>
 

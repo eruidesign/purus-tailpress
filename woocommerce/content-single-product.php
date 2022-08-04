@@ -19,6 +19,9 @@ defined( 'ABSPATH' ) || exit;
 
 global $product;
 
+$shop_page_ID = get_option( 'woocommerce_shop_page_id' );
+$shop_page = get_post($shop_page_ID);
+
 /**
  * Hook: woocommerce_before_single_product.
  *
@@ -33,7 +36,7 @@ if ( post_password_required() ) {
 ?>
 <div id="product-<?php the_ID(); ?>" <?php wc_product_class( '', $product ); ?>>
 
-<div style="background-image: url(<?php echo get_the_post_thumbnail_url($shop_page_ID,'banner-1440x600');?>);">
+<div class="bg-cover" style="background-image: url(<?php echo get_the_post_thumbnail_url($shop_page_ID,'banner-1440x600');?>);">
 
     <div class="grid md:grid-cols-2 lg:max-w-screen-xl py-8 mx-auto">
 
