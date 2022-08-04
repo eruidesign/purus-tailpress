@@ -1479,6 +1479,7 @@ article > *:not(.entry-content),
 .woocommerce div.product .woocommerce-tabs ul.tabs{
   padding: 0 0;
   margin: 0 0;
+  border: none;
 }
 
 .woocommerce div.product .woocommerce-tabs ul.tabs li a {
@@ -1488,6 +1489,13 @@ article > *:not(.entry-content),
   font-weight: 400;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: #fff !important;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li{
+  padding: 0 0;
+  margin: 0 0;
+  border: none
 }
 
 main p {
