@@ -101,7 +101,7 @@ article > *:not(.entry-content),
 }
 
 .woocommerce-Tabs-panel{
-    @apply bg-gray-50;
+    @apply bg-gray-50 p-8;
 }
 
 .woocommerce-Tabs-panel h2{
@@ -112,6 +112,10 @@ article > *:not(.entry-content),
 .woocommerce div.product .woocommerce-tabs ul.tabs{
   padding: 0 0;
   margin: 0 0;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li a{
+  @apply bg-gray-600 p-4 text-white font-normal;
 }
 
 main p{
