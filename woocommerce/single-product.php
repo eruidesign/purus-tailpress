@@ -25,7 +25,7 @@ get_header( 'shop' );
 
 <div class="">
 
-	<div class="bg-zink-900">
+	<div class="bg-zinc-900">
 
 		<?php
 			if ( function_exists('yoast_breadcrumb') ) {
