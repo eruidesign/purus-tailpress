@@ -251,3 +251,8 @@ main p{
     position: absolute;
   }
 
+
+  .product .summary{
+    @apply bg-white p-8 rounded-lg;
+  }
+
