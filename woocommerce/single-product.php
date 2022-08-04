@@ -25,7 +25,7 @@ $shop_page = get_post($shop_page_ID);
 
 ?>
 
-<div class="" style="background-image: url(<?php echo get_the_post_thumbnail_url($shop_page_ID,'banner-1440x600');?>);">
+<div class="bg-cover" style="background-image: url(<?php echo get_the_post_thumbnail_url($shop_page_ID,'banner-1440x600');?>);">
 
 	<?php
 		if ( function_exists('yoast_breadcrumb') ) {
