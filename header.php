@@ -74,4 +74,4 @@
 
 		<?php do_action( 'tailpress_content_start' ); ?>
 
-		<main class="bg-black">
+		<main class="bg-white">
