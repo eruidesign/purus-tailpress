@@ -114,6 +114,9 @@ article > *:not(.entry-content),
   margin: 0 0;
   border: none;
 }
+.woocommerce div.product .woocommerce-tabs ul.tabs::before{
+  border: none;
+}
 
 .woocommerce div.product .woocommerce-tabs ul.tabs li a{
   @apply bg-gray-600 p-4 text-white font-normal;
