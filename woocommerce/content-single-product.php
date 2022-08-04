@@ -33,6 +33,8 @@ if ( post_password_required() ) {
 ?>
 <div id="product-<?php the_ID(); ?>" <?php wc_product_class( 'lg:max-w-screen-xl py-8 mx-auto', $product ); ?>>
 
+    <div class="grid md:grid-cols-2">
+
 	<?php
 	/**
 	 * Hook: woocommerce_before_single_product_summary.
@@ -60,6 +62,8 @@ if ( post_password_required() ) {
 		do_action( 'woocommerce_single_product_summary' );
 		?>
 	</div>
+
+    </div>
 
     <div class="grid md:grid-cols-2">
 
