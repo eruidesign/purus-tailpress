@@ -25,11 +25,14 @@ get_header( 'shop' );
 
 <div class="">
 
-	<?php
-		if ( function_exists('yoast_breadcrumb') ) {
-		yoast_breadcrumb( '<div id="breadcrumbs" class="my-8">','</div>' );
-		}
-	?>
+	<div class="bg-zink-900">
+
+		<?php
+			if ( function_exists('yoast_breadcrumb') ) {
+			yoast_breadcrumb( '<div id="breadcrumbs" class="my-8 lg:max-w-screen-xl py-8 mx-auto text-gray-500">','</div>' );
+			}
+		?>
+	</div>
 
 	<?php
 		/**
