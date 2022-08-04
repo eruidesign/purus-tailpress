@@ -1498,6 +1498,15 @@ article > *:not(.entry-content),
   border: none
 }
 
+.woocommerce div.product .woocommerce-tabs ul.tabs li::after,
+.woocommerce div.product .woocommerce-tabs ul.tabs li::before{
+  display: none;
+}
+
+.woocommerce div.product .woocommerce-tabs .panel{
+  padding: 1rem 1rem;
+}
+
 main p {
   padding-bottom: 1rem;
 }
