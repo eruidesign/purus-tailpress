@@ -285,11 +285,11 @@ main p{
     @apply bg-white p-8 rounded-lg;
   }
 
-  .slick-list{
+  .single-product-main-image .slick-list{
     @apply !mx-0;
   }
 
-  .slick-list .slick-slide{
+  .single-product-main-image .slick-slide{
     @apply !w-auto;
   }
 

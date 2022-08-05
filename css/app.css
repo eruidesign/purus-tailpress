@@ -2126,12 +2126,12 @@ main p {
   padding: 2rem;
 }
 
-.slick-list {
+.single-product-main-image .slick-list {
   margin-left: 0px !important;
   margin-right: 0px !important;
 }
 
-.slick-list .slick-slide {
+.single-product-main-image .slick-slide {
   width: auto !important;
 }
 
