@@ -2130,8 +2130,8 @@ main p {
   padding: 2rem;
 }
 
-.slick-track .slick-slide {
-  width: 100% !important;
+.slick-track .slick-slide{
+  /*@apply !w-[100%];*/
 }
 
 @font-face {

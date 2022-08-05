@@ -286,6 +286,6 @@ main p{
   }
 
   .slick-track .slick-slide{
-    @apply !w-[100%];
+    /*@apply !w-[100%];*/
   }
 
