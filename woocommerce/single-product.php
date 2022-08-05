@@ -29,7 +29,7 @@ get_header( 'shop' );
 
 		<?php
 			if ( function_exists('yoast_breadcrumb') ) {
-			yoast_breadcrumb( '<div id="breadcrumbs" class="lg:max-w-screen-xl py-8 mx-auto text-gray-500">','</div>' );
+			yoast_breadcrumb( '<div id="breadcrumbs" class="lg:max-w-screen-xl p-4 mx-auto text-gray-500">','</div>' );
 			}
 		?>
 	</div>
