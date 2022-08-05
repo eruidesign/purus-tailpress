@@ -79,10 +79,10 @@ article > *:not(.entry-content),
 }*/
 
 .woocommerce-tabs{
-    @apply p-8;
+    /*@apply p-8;*/
 }
 .related.products{
-    @apply p-8;
+    /*@apply p-8;*/
 }
 
 .related.products > h2{

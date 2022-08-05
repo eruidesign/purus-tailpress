@@ -73,7 +73,7 @@ if ( post_password_required() ) {
 
 <div>
 
-    <div class="lg:max-w-screen-xl p-4 mx-auto grid md:grid-cols-2">
+    <div class="lg:max-w-screen-xl p-4 mx-auto grid md:grid-cols-2 md:gap-4">
 
 	<?php
 	/**

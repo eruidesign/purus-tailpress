@@ -871,6 +871,10 @@ body {
     grid-template-columns: 2fr 1fr
   }
 
+  .md\:gap-4 {
+    gap: 1rem
+  }
+
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem
