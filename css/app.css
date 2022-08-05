@@ -2126,7 +2126,7 @@ main p {
   padding: 2rem;
 }
 
-.slick-slide {
+.slick-track .slick-slide {
   width: 100%;
 }
 

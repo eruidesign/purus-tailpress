@@ -285,7 +285,7 @@ main p{
     @apply bg-white p-8 rounded-lg;
   }
 
-  .slick-slide{
+  .slick-track .slick-slide{
     @apply w-[100%];
   }
 
