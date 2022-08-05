@@ -762,10 +762,6 @@ video {
   width: 10rem;
 }
 
-.\!w-\[100\%\] {
-  width: 100% !important;
-}
-
 .w-16 {
   width: 4rem;
 }
@@ -2130,8 +2126,13 @@ main p {
   padding: 2rem;
 }
 
-.slick-track .slick-slide{
-  /*@apply !w-[100%];*/
+.slick-list {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.slick-list .slick-slide {
+  width: auto !important;
 }
 
 @font-face {
