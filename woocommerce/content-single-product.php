@@ -38,7 +38,7 @@ if ( post_password_required() ) {
 
 <div class="bg-cover overflow-auto" style="background-image: url(<?php echo get_the_post_thumbnail_url($shop_page_ID,'banner-1440x600');?>);">
 
-    <div class="lg:max-w-screen-xl py-8 mx-auto">
+    <div class="lg:max-w-screen-xl p-4 mx-auto">
 
         <?php
         /**
@@ -73,7 +73,7 @@ if ( post_password_required() ) {
 
 <div>
 
-    <div class="lg:max-w-screen-xl py-8 mx-auto grid md:grid-cols-2">
+    <div class="lg:max-w-screen-xl p-4 mx-auto grid md:grid-cols-2">
 
 	<?php
 	/**
