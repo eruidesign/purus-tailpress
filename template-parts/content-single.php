@@ -9,14 +9,15 @@
 		<!--<time datetime="<?php echo get_the_date( 'c' ); ?>" itemprop="datePublished" class="text-sm text-gray-700"><?php echo get_the_date(); ?></time>-->
 	</header>
 
+	<div class="bg-zinc-900">
+		<?php
+			if ( function_exists('yoast_breadcrumb') ) {
+			yoast_breadcrumb( '<div id="breadcrumbs" class="lg:max-w-screen-xl p-4 mx-auto text-gray-500">','</div>' );
+			}
+		?>
+	</div>
+
 	<div class="entry-content">
-		<div class="bg-zinc-900">
-			<?php
-				if ( function_exists('yoast_breadcrumb') ) {
-				yoast_breadcrumb( '<div id="breadcrumbs" class="lg:max-w-screen-xl p-4 mx-auto text-gray-500">','</div>' );
-				}
-			?>
-		</div>
 
 		<?php if ( has_excerpt() ) : ?>
 			<?php the_excerpt();?>
