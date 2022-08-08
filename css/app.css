@@ -2101,7 +2101,7 @@ main p {
   display: none;
 }
 
-@media (min-width: 782px) {
+@media (min-width: 600px) {
   .sub-menu {
     display: block;
   }
@@ -2236,6 +2236,12 @@ cite {
   --tw-ring-offset-color: #fff;
 }
 
+@media (min-width: 600px) {
+  .sm\:block {
+    display: block;
+  }
+}
+
 @media (min-width: 782px) {
   .md\:col-span-2 {
     grid-column: span 2 / span 2;
@@ -2248,10 +2254,6 @@ cite {
 
   .md\:mt-0 {
     margin-top: 0px;
-  }
-
-  .md\:block {
-    display: block;
   }
 
   .md\:inline-block {

@@ -256,7 +256,7 @@ main p{
     padding: 1rem;
     margin-left: -1rem;
     color: #fff;
-    @apply md:block hidden;
+    @apply sm:block hidden;
 }
 .menu-item-has-children:hover .sub-menu{
     display: block;
