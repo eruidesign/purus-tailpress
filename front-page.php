@@ -81,14 +81,14 @@
     </div>
 </section>
 <section class="section-testimonials lg:min-h-[40rem] bg-black text-white" style="background: #040707 url(<?php echo get_the_post_thumbnail_url($section_4_ID,'banner-1440x800');?>) no-repeat right bottom;">
-    <div class="container lg:max-w-screen-xl mx-auto p-4">
-        <div class="section-description col-span-3">
+    <div class="container lg:max-w-screen-xl mx-auto p-4 flex-col">
+        <div class="section-description">
             <h2 class="text-3xl lg:text-5xl tracking-tight my-4 text-primary font-serif">Testimonials</h2>
             <p>Receive a free Purus if you send in a taste comparrison video or testimonial</p>
             <a href="#" class="text-primary uppercase">Read More &rarr;</a>
         </div>
 
-        <div class="p-4 flex justify-center items-center">
+        <div class="p-4 flex justify-center items-center flex-grow">
             <!--<div class="testimonial-image w-[300px] md:w-full aspect-square my-8 self-center mx-auto border-8 border-primary rounded-full overflow-hidden">
                 <img src="https://staging2.puruspotus.com/wp-content/uploads/Testimonial-1.jpg" alt="">
             </div>-->
