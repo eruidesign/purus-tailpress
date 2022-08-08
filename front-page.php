@@ -91,8 +91,8 @@
             <!--<div class="testimonial-image w-[300px] md:w-full aspect-square my-8 self-center mx-auto border-8 border-primary rounded-full overflow-hidden">
                 <img src="https://staging2.puruspotus.com/wp-content/uploads/Testimonial-1.jpg" alt="">
             </div>-->
-            <div class="testimonial-text self-center lg:max-w-lg">
-                <blockquote class="max-w-md">Drinking red wine was embarrassing and not enjoyable for me w/ the reddened skin reaction I had after consuming a glass and headaches that ensued not long after. When my friend told me about Purus, I was curious to try. It's changed my enjoyment of pairing a great steak with a cab. Or even dark chocolate w/ a dessert wine. Sulfites go away! Purus has changed my eating & drinking experience for the better.</blockquote>
+            <div class="testimonial-text self-center md:max-w-lg">
+                <blockquote class="max-w-sm">Drinking red wine was embarrassing and not enjoyable for me w/ the reddened skin reaction I had after consuming a glass and headaches that ensued not long after. When my friend told me about Purus, I was curious to try. It's changed my enjoyment of pairing a great steak with a cab. Or even dark chocolate w/ a dessert wine. Sulfites go away! Purus has changed my eating & drinking experience for the better.</blockquote>
                 <cite class="font-serif text-primary text-lg my-8 italic block">Jodi, Michigan USA</cite>
             </div>
         </div>
