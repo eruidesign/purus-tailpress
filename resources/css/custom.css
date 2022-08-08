@@ -251,12 +251,12 @@ main p{
 
 /* Submenu */
 .sub-menu{
-    display: none;
     position: absolute;
     background: #000;
     padding: 1rem;
     margin-left: -1rem;
     color: #fff;
+    @apply md:block hidden;
 }
 .menu-item-has-children:hover .sub-menu{
     display: block;
