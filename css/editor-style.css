@@ -929,6 +929,10 @@ body {
     max-width: 1280px
   }
 
+  .lg\:max-w-lg {
+    max-width: 32rem
+  }
+
   .lg\:basis-1\/2 {
     flex-basis: 50%
   }

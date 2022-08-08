@@ -80,7 +80,7 @@
         <?php endif;?>
     </div>
 </section>
-<section class="section-testimonials lg:min-h-[40rem] bg-black text-white" style="background: #040707 url(<?php echo get_the_post_thumbnail_url($section_4_ID,'banner-1440x800');?>) no-repeat right bottom;">
+<section class="section-testimonials flex lg:min-h-[40rem] bg-black text-white" style="background: #040707 url(<?php echo get_the_post_thumbnail_url($section_4_ID,'banner-1440x800');?>) no-repeat right bottom;">
     <div class="container lg:max-w-screen-xl mx-auto p-4 flex-col">
         <div class="section-description">
             <h2 class="text-3xl lg:text-5xl tracking-tight my-4 text-primary font-serif">Testimonials</h2>
@@ -92,7 +92,7 @@
             <!--<div class="testimonial-image w-[300px] md:w-full aspect-square my-8 self-center mx-auto border-8 border-primary rounded-full overflow-hidden">
                 <img src="https://staging2.puruspotus.com/wp-content/uploads/Testimonial-1.jpg" alt="">
             </div>-->
-            <div class="testimonial-text self-center">
+            <div class="testimonial-text self-center lg:max-w-lg">
                     <blockquote>Drinking red wine was embarrassing and
             not enjoyable for me w/ the reddened skin
             reaction I had after consuming a glass and
