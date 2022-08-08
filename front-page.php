@@ -88,22 +88,22 @@
             <a href="#" class="text-primary uppercase">Read More &rarr;</a>
         </div>
 
-        <div class="p-4 md:grid md:grid-cols-[1fr_2fr] gap-8 place-content-center">
-            <div class="testimonial-image w-[300px] md:w-full aspect-square my-8 self-center mx-auto border-8 border-primary rounded-full overflow-hidden">
+        <div class="p-4 flex justify-center items-center">
+            <!--<div class="testimonial-image w-[300px] md:w-full aspect-square my-8 self-center mx-auto border-8 border-primary rounded-full overflow-hidden">
                 <img src="https://staging2.puruspotus.com/wp-content/uploads/Testimonial-1.jpg" alt="">
-            </div>
+            </div>-->
             <div class="testimonial-text self-center">
-                    <p>Drinking red wine was embarrassing and
+                    <blockquote>Drinking red wine was embarrassing and
             not enjoyable for me w/ the reddened skin
             reaction I had after consuming a glass and
             headaches that ensued not long after.
             When my friend told me about Purus, I was
             curious to try. It's changed my enjoyment
             of pairing a great steak with a cab. Or even
-            dark chocolate w/ a dessert wine. Sul tes
+            dark chocolate w/ a dessert wine. Sulfites
             go away! Purus has changed my eating &
-            drinking experience for the better.<p>
-                <p class="font-serif text-primary text-lg my-4 italic">Jodi, Michigan USA</p>
+            drinking experience for the better.</blockquote>
+                <cite class="font-serif text-primary text-lg my-4 italic">Jodi, Michigan USA</cite>
             </div>
         </div>
         <div class="col-span-3">
