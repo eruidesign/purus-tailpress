@@ -806,6 +806,14 @@ video {
   max-width: 28rem;
 }
 
+.max-w-\[\] {
+  max-width: ;
+}
+
+.max-w-\[400px\] {
+  max-width: 400px;
+}
+
 .flex-none {
   flex: none;
 }
