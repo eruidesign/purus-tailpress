@@ -102,10 +102,10 @@
             dark chocolate w/ a dessert wine. Sulfites
             go away! Purus has changed my eating &
             drinking experience for the better.</blockquote>
-                <cite class="font-serif text-primary text-lg my-4 italic">Jodi, Michigan USA</cite>
+                <cite class="font-serif text-primary text-lg my-8 italic block">Jodi, Michigan USA</cite>
             </div>
         </div>
-        <div class="col-span-3">
+        <div class="">
             <a href="#" class="text-primary uppercase">Read More &rarr;</a>
         </div>  
     </div>
