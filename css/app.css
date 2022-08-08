@@ -944,13 +944,13 @@ video {
   border-bottom-width: 1px;
 }
 
-.border-transparent {
-  border-color: transparent;
-}
-
 .border-primary {
   --tw-border-opacity: 1;
   border-color: rgb(176 151 109 / var(--tw-border-opacity));
+}
+
+.border-transparent {
+  border-color: transparent;
 }
 
 .border-red-600 {
@@ -1396,6 +1396,8 @@ video {
 }
 
 .woocommerce-loop-product__link .size-woocommerce_thumbnail {
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 9999px;
   border-width: 4px;
   --tw-border-opacity: 1;
