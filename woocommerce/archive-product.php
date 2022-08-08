@@ -34,6 +34,16 @@ $shop_page = get_post($shop_page_ID);
 <section class="hero min-h-[600px] bg-cover" style="background-image: url(<?php echo get_the_post_thumbnail_url($shop_page_ID,'banner-1440x600');?>);">
     <div class="hero-overlay bg-opacity-60"></div>
     <div class="container mx-auto p-8 hero-content text-neutral-content">
+
+        <div class="py-3 px-5 mb-4 bg-white text-black text-sm rounded-md border border-primary flex items-center justify-between" role="alert">
+            <span>For orders over 50 please <a class="text-primary" href="<?php echo get_permalink(14); ?>">Contact Us</a>!</span>
+            <button class="w-4" type="button" data-dismiss="alert" aria-label="Close" onclick="this.parentElement.remove();">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+
         <?php if ( woocommerce_product_loop() ) : ?>
 
             <div class="products grid grid-cols-2 gap-4 justify-items-center">
