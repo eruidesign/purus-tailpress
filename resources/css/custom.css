@@ -256,7 +256,7 @@ main p{
     padding: 1rem;
     margin-left: -1rem;
     color: #fff;
-    @apply block md:hidden absolute md:relative md:pl-4;
+    @apply block md:hidden md:absolute relative md:pl-4;
 }
 .menu-item-has-children:hover .sub-menu{
     display: block;

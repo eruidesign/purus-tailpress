@@ -869,6 +869,10 @@ body {
 }
 
 @media (min-width: 782px) {
+  .md\:absolute {
+    position: absolute
+  }
+
   .md\:relative {
     position: relative
   }
