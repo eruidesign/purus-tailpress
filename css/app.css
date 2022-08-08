@@ -2100,7 +2100,7 @@ main p {
   color: #fff;
   position: relative;
   display: block;
-  padding-left: 1rem;
+  padding-left: 2rem;
 }
 
 @media (min-width: 782px) {
