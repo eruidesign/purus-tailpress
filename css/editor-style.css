@@ -869,6 +869,10 @@ body {
 }
 
 @media (min-width: 782px) {
+  .md\:relative {
+    position: relative
+  }
+
   .md\:col-span-2 {
     grid-column: span 2 / span 2
   }
@@ -896,6 +900,10 @@ body {
 
   .md\:grid {
     display: grid
+  }
+
+  .md\:hidden {
+    display: none
   }
 
   .md\:h-\[400px\] {
