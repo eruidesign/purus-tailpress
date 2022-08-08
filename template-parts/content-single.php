@@ -9,7 +9,7 @@
 		<!--<time datetime="<?php echo get_the_date( 'c' ); ?>" itemprop="datePublished" class="text-sm text-gray-700"><?php echo get_the_date(); ?></time>-->
 	</header>
 
-	<div class="">
+	<div class="entry-content">
 		<div class="bg-zinc-900">
 			<?php
 				if ( function_exists('yoast_breadcrumb') ) {
@@ -17,7 +17,7 @@
 				}
 			?>
 		</div>
-		
+
 		<?php if ( has_excerpt() ) : ?>
 			<?php the_excerpt();?>
 		<?php endif;?>

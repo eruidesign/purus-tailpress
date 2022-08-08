@@ -293,3 +293,9 @@ main p{
     @apply !w-auto;
   }
 
+  .entry-content{
+    a {
+      @apply text-primary underline;
+    }
+  }
+

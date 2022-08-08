@@ -2140,6 +2140,16 @@ main p {
   width: auto !important;
 }
 
+.entry-content a {
+    --tw-text-opacity: 1;
+    color: rgb(176 151 109 / var(--tw-text-opacity));
+  }
+
+.entry-content a {
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+  }
+
 @font-face {
   font-family: 'Denver';
 
