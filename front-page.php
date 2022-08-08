@@ -91,7 +91,7 @@
             <!--<div class="testimonial-image w-[300px] md:w-full aspect-square my-8 self-center mx-auto border-8 border-primary rounded-full overflow-hidden">
                 <img src="https://staging2.puruspotus.com/wp-content/uploads/Testimonial-1.jpg" alt="">
             </div>-->
-            <div class="testimonial-text self-center lg:max-w-lg">
+            <div class="testimonial-text self-center lg:max-w-lg max-w-md">
                     <blockquote>Drinking red wine was embarrassing and
             not enjoyable for me w/ the reddened skin
             reaction I had after consuming a glass and
