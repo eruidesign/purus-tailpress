@@ -24,7 +24,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	return;
 }
 ?>
-<div <?php wc_product_class( 'bg-black text-white text-center p-4 rounded-lg md:w-96 w-full', $product ); ?>>
+<div <?php wc_product_class( 'bg-black text-white text-center p-4 mb-4 rounded-lg md:w-96 w-full', $product ); ?>>
 	<?php
 	/**
 	 * Hook: woocommerce_before_shop_loop_item.
