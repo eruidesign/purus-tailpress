@@ -84,8 +84,7 @@
     <div class="container lg:max-w-screen-xl mx-auto p-4 flex flex-col">
         <div class="section-description">
             <h2 class="text-3xl lg:text-5xl tracking-tight my-4 text-primary font-serif">Testimonials</h2>
-            <p>Receive a free Purus if you send in a taste comparrison video or testimonial</p>
-            <a href="#" class="text-primary uppercase">Read More &rarr;</a>
+            <p>Receive a free Purus if you <a href="">send in</a> a taste comparrison video or testimonial.</p>
         </div>
 
         <div class="p-4 flex justify-center items-center flex-grow">
@@ -106,6 +105,9 @@
                 <cite class="font-serif text-primary text-lg my-4 italic">Jodi, Michigan USA</cite>
             </div>
         </div>
+        <div class="col-span-3">
+            <a href="#" class="text-primary uppercase">Read More &rarr;</a>
+        </div>  
     </div>
 </section>
 
