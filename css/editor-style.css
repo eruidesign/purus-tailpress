@@ -44,6 +44,10 @@
   }
 }
 
+.visible {
+  visibility: visible
+}
+
 .absolute {
   position: absolute
 }
@@ -869,6 +873,10 @@ body {
 }
 
 @media (min-width: 782px) {
+  .md\:invisible {
+    visibility: hidden
+  }
+
   .md\:absolute {
     position: absolute
   }

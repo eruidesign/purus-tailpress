@@ -256,10 +256,13 @@ main p{
     padding: 1rem;
     margin-left: -1rem;
     color: #fff;
-    @apply block md:hidden md:absolute relative pl-8;
+    @apply visible md:invisible md:absolute relative pl-8;
 }
 .menu-item-has-children:hover .sub-menu{
-    display: block;
+    @apply visible;
+    transition-property: all;
+  transition-duration: .2s;
+  transition-timing-function: ease-in-out;
 }
 .sub-menu li{
     margin: 0 !important;
