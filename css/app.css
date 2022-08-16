@@ -2200,6 +2200,21 @@ cite {
   text-align: left;
 }
 
+/* Instructions Page */
+
+.page-id-546 .entry-content ol li {
+  padding-bottom: 2rem;
+}
+
+.page-id-546 .entry-content ol li::marker {
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(176 151 109 / var(--tw-bg-opacity));
+  padding: 1rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 @font-face {
   font-family: 'Denver';
 
