@@ -722,6 +722,10 @@ video {
   aspect-ratio: 1 / 1;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-1 {
   height: 0.25rem;
 }
@@ -760,6 +764,10 @@ video {
 
 .w-40 {
   width: 10rem;
+}
+
+.w-8 {
+  width: 2rem;
 }
 
 .w-16 {
@@ -2207,8 +2215,28 @@ cite {
 
 /* Instructions Page */
 
+.page-id-546 .entry-content ol{
+  list-style: none;
+  counter-reset: my-awesome-counter;
+}
+
 .page-id-546 .entry-content ol li {
   padding-bottom: 2rem;
+  counter-increment: my-awesome-counter;
+}
+
+.page-id-546 .entry-content ol li::before {
+  margin-right: 1rem;
+  display: inline-block;
+  height: 2.5rem;
+  width: 2rem;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(176 151 109 / var(--tw-bg-opacity));
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  content: counter(my-awesome-counter);
 }
 
 .page-id-546 .entry-content ol li::marker {
