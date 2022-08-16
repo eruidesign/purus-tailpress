@@ -341,7 +341,7 @@ main p{
     counter-reset: my-awesome-counter;
   }
   .page-id-546 .entry-content ol li{
-    @apply pb-8;
+    @apply pb-8 list-none;
     counter-increment: my-awesome-counter;
   }
   .page-id-546 .entry-content ol li::before{
