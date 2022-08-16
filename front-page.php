@@ -15,6 +15,8 @@
 
     $CTA_1_ID = 580; //Congeners
     $CTA_2_ID = 546; //Instructions
+
+    $contact_ID = 14; //Contact Page
 ?>
 
 <section class="lg:min-h-[40rem] bg-zinc-900 text-white flex flex-col" style="background: url(<?php echo get_the_post_thumbnail_url($section_1_ID,'banner-1440x800');?>);">
@@ -39,11 +41,11 @@
     <div class="container lg:max-w-screen-xl mx-auto p-4 flex flex-row-reverse">
         <div class="lg:basis-1/2">
             <h2 class="text-3xl lg:text-5xl tracking-tight my-4 text-primary font-serif">About <span class="font-denver text-white">Purus</span></h2>
-            <p class="text-white mb-10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel perferendis officia in voluptas, quis quo amet aliquid soluta ut repudiandae ab quibusdam commodi porro optio dolorum, ullam vitae libero ex!
-            Expedita nam amet iste excepturi eveniet, non, ut culpa fugiat ipsa tempore consequuntur animi doloremque eius corrupti. Enim unde eveniet nam numquam blanditiis, illo tempore consectetur non in architecto ut.
-            Debitis porro temporibus provident suscipit cumque blanditiis ea numquam alias maiores, animi, veritatis atque laboriosam perferendis molestiae error aliquam tempore voluptas nam harum eum iure recusandae. Reiciendis officia aspernatur laudantium.
-            Quibusdam, eos?</p>
-            <a href="#" class="text-primary uppercase">Read More &rarr;</a>
+            <?php if ( has_excerpt( $section_2_ID ) ) : ?>
+                <?php echo get_the_excerpt($section_2_ID);?>
+            <?php endif;?>
+
+            <a href="<?php echo get_the_permalink( $section_2_ID );?>" class="text-primary uppercase">Read More &rarr;</a>
         </div>
     </div>
 </section>
@@ -51,7 +53,9 @@
     <div class="container lg:max-w-screen-xl mx-auto px-4">
         <div class="section-description md:col-span-2 lg:col-span-3">
             <h2 class="text-3xl lg:text-5xl tracking-tight my-4 text-primary font-serif">Our Products</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+            <?php if ( has_excerpt( $section_3_ID ) ) : ?>
+                <?php echo get_the_excerpt($section_3_ID);?>
+            <?php endif;?>
         </div>
        <?php if ( woocommerce_product_loop() ) : ?>
 
@@ -84,7 +88,7 @@
     <div class="container lg:max-w-screen-xl mx-auto p-4 flex flex-col">
         <div class="section-description">
             <h2 class="text-3xl lg:text-5xl tracking-tight my-4 text-primary font-serif">Testimonials</h2>
-            <p>Receive a free Purus if you <a href="">send in</a> a taste comparrison video or testimonial.</p>
+            <p>Receive a free Purus if you <a href="<?php echo get_the_permalink( $contact_ID );?>">send in</a> a taste comparrison video or testimonial.</p>
         </div>
 
         <div class="p-4 flex justify-center items-center flex-grow">
@@ -97,7 +101,7 @@
             </div>
         </div>
         <div class="">
-            <a href="#" class="text-primary uppercase">Read More &rarr;</a>
+            <a href="<?php echo get_the_permalink( $section_4_ID );?>" class="text-primary uppercase">Read More &rarr;</a>
         </div>  
     </div>
 </section>
