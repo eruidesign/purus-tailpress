@@ -201,6 +201,10 @@
   height: 2.5rem
 }
 
+.h-8 {
+  height: 2rem
+}
+
 .min-h-screen {
   min-height: 100vh
 }
@@ -639,6 +643,10 @@
 
 .leading-tight {
   line-height: 1.25
+}
+
+.leading-8 {
+  line-height: 2rem
 }
 
 .tracking-tight {

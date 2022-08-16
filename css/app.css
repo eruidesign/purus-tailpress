@@ -722,8 +722,8 @@ video {
   aspect-ratio: 1 / 1;
 }
 
-.h-10 {
-  height: 2.5rem;
+.h-8 {
+  height: 2rem;
 }
 
 .h-1 {
@@ -991,11 +991,6 @@ video {
   background-color: rgb(176 151 109 / var(--tw-bg-opacity));
 }
 
-.\!bg-primary {
-  --tw-bg-opacity: 1 !important;
-  background-color: rgb(176 151 109 / var(--tw-bg-opacity)) !important;
-}
-
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
@@ -1176,6 +1171,10 @@ video {
 
 .leading-tight {
   line-height: 1.25;
+}
+
+.leading-8 {
+  line-height: 2rem;
 }
 
 .leading-6 {
@@ -2228,24 +2227,16 @@ cite {
 .page-id-546 .entry-content ol li::before {
   margin-right: 1rem;
   display: inline-block;
-  height: 2.5rem;
+  height: 2rem;
   width: 2rem;
   border-radius: 9999px;
   --tw-bg-opacity: 1;
   background-color: rgb(176 151 109 / var(--tw-bg-opacity));
   text-align: center;
+  line-height: 2rem;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
   content: counter(my-awesome-counter);
-}
-
-.page-id-546 .entry-content ol li::marker {
-  border-radius: 9999px;
-  --tw-bg-opacity: 1 !important;
-  background-color: rgb(176 151 109 / var(--tw-bg-opacity)) !important;
-  padding: 1rem;
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .page-id-546 .entry-content p {
