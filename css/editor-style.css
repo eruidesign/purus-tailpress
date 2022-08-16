@@ -145,6 +145,10 @@
   margin-bottom: 1.25rem
 }
 
+.mb-0 {
+  margin-bottom: 0px
+}
+
 .block {
   display: block
 }
@@ -457,6 +461,11 @@
 .bg-gray-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity))
+}
+
+.\!bg-primary {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(176 151 109 / var(--tw-bg-opacity)) !important
 }
 
 .bg-opacity-60 {

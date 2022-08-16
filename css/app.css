@@ -983,6 +983,11 @@ video {
   background-color: rgb(176 151 109 / var(--tw-bg-opacity));
 }
 
+.\!bg-primary {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(176 151 109 / var(--tw-bg-opacity)) !important;
+}
+
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
@@ -2208,11 +2213,15 @@ cite {
 
 .page-id-546 .entry-content ol li::marker {
   border-radius: 9999px;
-  --tw-bg-opacity: 1;
-  background-color: rgb(176 151 109 / var(--tw-bg-opacity));
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(176 151 109 / var(--tw-bg-opacity)) !important;
   padding: 1rem;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.page-id-546 .entry-content p {
+  margin-bottom: 0px;
 }
 
 @font-face {
