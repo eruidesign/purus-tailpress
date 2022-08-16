@@ -337,7 +337,7 @@ main p{
 
   /* Instructions Page */
   .page-id-546 .entry-content ol{
-    list-style: none;
+    @apply !list-none;
     counter-reset: my-awesome-counter;
   }
   .page-id-546 .entry-content ol li{
