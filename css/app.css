@@ -1573,7 +1573,6 @@ video {
   font-weight: 400;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-  color: #fff !important;
 }
 
 .woocommerce div.product .woocommerce-tabs ul.tabs li{
