@@ -257,6 +257,14 @@
   width: 1rem
 }
 
+.w-\[\] {
+  width: 
+}
+
+.w-\[1rem\] {
+  width: 1rem
+}
+
 .max-w-sm {
   max-width: 24rem
 }
