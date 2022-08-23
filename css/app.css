@@ -1015,6 +1015,11 @@ video {
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
+.\!bg-gray-50 {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity)) !important;
+}
+
 .bg-primary {
   --tw-bg-opacity: 1;
   background-color: rgb(176 151 109 / var(--tw-bg-opacity));
@@ -1079,6 +1084,11 @@ video {
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .px-4 {
@@ -1518,7 +1528,8 @@ video {
 .related.products .products {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
-  padding: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -1527,11 +1538,11 @@ video {
   display: flex;
 }
 
-.wc-tabs .active {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
-  --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
+.wc-tabs li.active {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity)) !important;
+  --tw-text-opacity: 1 !important;
+  color: rgb(55 65 81 / var(--tw-text-opacity)) !important;
 }
 
 .woocommerce-Tabs-panel {

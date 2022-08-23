@@ -71,7 +71,7 @@ if ( post_password_required() ) {
     </div>
 </div>
 
-<div>
+<div class="bg-white">
 
     <div class="lg:max-w-screen-xl p-4 mx-auto grid md:grid-cols-2 md:gap-4">
 

@@ -90,14 +90,14 @@
 }
 
 .related.products .products{
-    @apply bg-gray-50 p-8 text-white;
+    @apply bg-gray-50 py-4 text-white;
 }
 
 .wc-tabs{
     @apply flex;
 }
-.wc-tabs .active{
-    @apply bg-gray-50 text-gray-700;
+.wc-tabs li.active{
+    @apply !bg-gray-50 !text-gray-700;
 }
 
 .woocommerce-Tabs-panel{
