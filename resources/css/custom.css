@@ -249,6 +249,12 @@ main p{
 
 }
 
+/* Menu */
+
+#menu-navigation a:hover{
+  @apply text-primary;
+}
+
 /* Submenu */
 .sub-menu{
     position: absolute;

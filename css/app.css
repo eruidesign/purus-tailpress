@@ -2164,6 +2164,13 @@ main p {
       outline-offset: 2px;
     }
 
+/* Menu */
+
+#menu-navigation a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(176 151 109 / var(--tw-text-opacity));
+}
+
 /* Submenu */
 
 .sub-menu{
