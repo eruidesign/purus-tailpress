@@ -786,8 +786,8 @@ video {
   width: 2rem;
 }
 
-.w-\[1rem\] {
-  width: 1rem;
+.\!w-\[1rem\] {
+  width: 1rem !important;
 }
 
 .w-16 {
@@ -2302,7 +2302,7 @@ cite {
   margin-top: 0.25rem;
   margin-right: 0.5rem;
   height: 1rem;
-  width: 1rem;
+  width: 1rem !important;
   cursor: pointer;
   -webkit-appearance: none;
      -moz-appearance: none;
