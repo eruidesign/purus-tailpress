@@ -351,7 +351,7 @@ main p{
   }
   .page-id-546 .entry-content ol li::before{
     @apply bg-primary inline-block w-8 h-8 leading-8 text-center rounded-full text-white mr-4;
-    content: counter(my-awesome-counter);
+    content: 'Step' counter(my-awesome-counter);
   }
   .page-id-546 .entry-content ol li::marker{
     @apply hidden;
