@@ -71,7 +71,7 @@
     content: ' →';
 }
 .woocommerce-loop-product__title{
-    @apply uppercase text-primary font-serif text-xl font-bold my-8;
+    @apply uppercase text-primary font-denver text-xl my-8;
 }
 
 /*.woocommerce-loop-product__customdesc{
@@ -363,3 +363,4 @@ main p{
 .woocommerce-form__input-checkbox{
   @apply appearance-none h-4 !w-[1rem] border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer;
 }
+

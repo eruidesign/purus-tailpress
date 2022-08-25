@@ -1157,12 +1157,12 @@ video {
   vertical-align: top;
 }
 
-.font-serif {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
 .font-denver {
   font-family: Denver;
+}
+
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .text-xl {
@@ -1496,9 +1496,8 @@ video {
 .woocommerce-loop-product__title {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: Denver;
   font-size: 1.25rem;
-  font-weight: 700;
   text-transform: uppercase;
   --tw-text-opacity: 1;
   color: rgb(176 151 109 / var(--tw-text-opacity));

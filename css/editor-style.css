@@ -253,18 +253,6 @@
   width: 2rem
 }
 
-.w-4 {
-  width: 1rem
-}
-
-.w-\[\] {
-  width: 
-}
-
-.w-\[1rem\] {
-  width: 1rem
-}
-
 .\!w-\[1rem\] {
   width: 1rem !important
 }
@@ -503,14 +491,14 @@
   background-color: rgb(75 85 99 / var(--tw-bg-opacity))
 }
 
-.bg-gray-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 250 251 / var(--tw-bg-opacity))
-}
-
 .\!bg-gray-50 {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity)) !important
+}
+
+.bg-gray-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity))
 }
 
 .bg-opacity-60 {
@@ -590,14 +578,14 @@
   padding-right: 1.25rem
 }
 
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem
-}
-
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem
 }
 
 .pb-8 {
