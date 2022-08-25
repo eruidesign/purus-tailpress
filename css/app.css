@@ -1390,7 +1390,7 @@ video {
     @apply mx-auto max-w-content;
 }*/
 
-.entry-content h1, .block-editor-block-list__layout h1 {
+/*.entry-content h1, .block-editor-block-list__layout h1 {
     font-size: 1.5rem;
     line-height: 2rem;
   }
@@ -1402,7 +1402,7 @@ video {
 .entry-content h3, .block-editor-block-list__layout h3 {
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
+  }*/
 
 .entry-content p a, .entry-content ul a, .entry-content ol a, .block-editor-block-list__layout p a, .block-editor-block-list__layout ul a, .block-editor-block-list__layout ol a {
       --tw-text-opacity: 1;
