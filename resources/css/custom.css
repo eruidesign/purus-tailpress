@@ -71,7 +71,7 @@
     content: ' →';
 }
 .woocommerce-loop-product__title{
-    @apply uppercase text-primary font-denver text-xl my-8;
+    @apply uppercase text-primary font-denver text-3xl my-8;
 }
 
 /*.woocommerce-loop-product__customdesc{
