@@ -734,10 +734,6 @@ video {
   aspect-ratio: 1 / 1;
 }
 
-.h-8 {
-  height: 2rem;
-}
-
 .h-4 {
   height: 1rem;
 }
@@ -780,10 +776,6 @@ video {
 
 .w-40 {
   width: 10rem;
-}
-
-.w-8 {
-  width: 2rem;
 }
 
 .\!w-\[1rem\] {
@@ -1269,6 +1261,11 @@ video {
   color: rgb(220 38 38 / var(--tw-text-opacity));
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .text-gray-800 {
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity));
@@ -1277,11 +1274,6 @@ video {
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
-}
-
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-gray-900 {
@@ -2292,16 +2284,16 @@ cite {
 .page-id-546 .entry-content ol li::before {
   margin-right: 1rem;
   display: inline-block;
-  height: 2rem;
-  width: 2rem;
   border-radius: 9999px;
   --tw-bg-opacity: 1;
   background-color: rgb(176 151 109 / var(--tw-bg-opacity));
+  padding: 0.5rem;
   text-align: center;
+  font-weight: 700;
   line-height: 2rem;
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-  content: 'Step' counter(my-awesome-counter);
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+  content: 'Step ' counter(my-awesome-counter);
 }
 
 .page-id-546 .entry-content ol li::marker {
