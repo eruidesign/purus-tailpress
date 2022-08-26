@@ -346,11 +346,11 @@ main p{
     counter-reset: my-awesome-counter;
   }
   .page-id-546 .entry-content ol li{
-    @apply pb-8 list-none;
+    @apply pb-8 pl-20 list-none;
     counter-increment: my-awesome-counter;
   }
   .page-id-546 .entry-content ol li::before{
-    @apply bg-primary inline-block p-2 leading-8 text-center rounded-full text-black font-bold mr-4;
+    @apply bg-primary inline-block p-2 leading-8 text-center rounded-full text-black font-bold mr-4 -ml-24 w-20;
     content: 'Step ' counter(my-awesome-counter);
   }
   .page-id-546 .entry-content ol li::marker{

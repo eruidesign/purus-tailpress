@@ -157,6 +157,14 @@
   margin-bottom: 1.25rem
 }
 
+.mr-4 {
+  margin-right: 1rem
+}
+
+.-ml-24 {
+  margin-left: -6rem
+}
+
 .block {
   display: block
 }
@@ -594,6 +602,10 @@
 
 .pb-8 {
   padding-bottom: 2rem
+}
+
+.pl-20 {
+  padding-left: 5rem
 }
 
 .text-center {
